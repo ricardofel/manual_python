@@ -1,3 +1,5 @@
+> .[!NOTE].
+> Cada ejemplo de codigo esta documentada
 ## FUNDAMENTOS DE PYTHON
 ### NOTAS:
 
