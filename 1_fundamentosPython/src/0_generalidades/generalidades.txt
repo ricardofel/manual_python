@@ -1,0 +1,22 @@
+AUTOR: RIQUISIMO
+HISTORIA:
+Creado por Guido Van Rossum en 1989 y lanzado en 1991, queria crear un lenguaje sencillo, legible y poderoso, su nombre
+no surge por el sustantivo serpiente, si no por el grupo de comedia britanico "Monty Python".
+
+VERSIONES:
+Luego de la version original (0.9.0) en 1994 lanzaron python 1, luego salio Python 2 en el 2000 con gran popularidad
+pero con problemas de compatibilidad, en 2008 salio Python 3 hicieron mejoras en el rendimiento y es la ultima version
+que conocemos hoy en dia, solo que con variaciones 3.1, 3.2, 3.3, etc.
+
+CARACTERISTICAS:
+- Es un lenguaje interpretado, es decir no necesita compilacion previa lo que facilita la depuracion y el desarrollo
+rapido.
+- Tiene una sintaxis sencilla y legible
+- Es un lenguaje mutiparadigma, programacion estructurada, orientada a objetos y funcional.
+- Es un lenguaje multiproposito, se usa en desarrollo web, ciencia de datos, IA, etc.
+- Es un lenguaje multiplataforma, no hay que modificar la logica del codigo para ejecutarlo en otros sistemas operativos.
+- Tipado dinamico, no se necesita declarar un tipo de dato antes de almacenarlo.
+- Comunidad activa, si tienes algun problema, es altamente probable que la comunidad ya lo haya tenido y te den la
+solucion.
+- Funciona en varios IDE, desde grandes como VScode o IntelliJ IDEA hasta simplemente ejecutarse como un archivo de
+texto con la extension .py.

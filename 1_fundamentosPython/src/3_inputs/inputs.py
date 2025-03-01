@@ -1,0 +1,10 @@
+# AUTOR: RIQUISIMO
+
+# INPUT
+# PEDIR DATOS POR CONSOLA
+# LA CONSOLA SIEMPRE NOS DEVUELVE UNA STRING
+# PARA USARLO DEBEMOS CONVERTIRLO AL TIPO DE DATO QUE DESEEMOS int(), float(), etc
+edad = int(input("INGRESA TU EDAD: "))
+print(f"EN 10 AÑOS TENDRAS: {edad + 10} AÑOS.")
+
+# NOTA: int() no admite valores decimales

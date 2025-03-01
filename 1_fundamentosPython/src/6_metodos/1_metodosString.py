@@ -1,0 +1,117 @@
+# AUTOR: RIQUISIMO
+
+# NOTA: PYTHON ES CASE SENSITIVE, ES DECIR HAY DIFERENCIA DE CARACTERES ENTRE MAYUSCULAS Y MINUSCULAS
+cadena1 = "Hola soy Ricky"
+cadena2 = "Me gusta programarrrrr"
+cadena3 = "53435168486"
+cadena4 = "lindo"
+cadena5 = "Hola;como;estas;que;tal;tu;dia"
+cadena6 = "roberto maria jose graciana flor lucia daniel"
+cadena7 = "      Hey me llamo Carlos   "
+
+
+# METODOS (SON METODOS PORQUE SON ESPECIFICOS DE STRING):
+
+# UPPER
+# DEVUELVE UNA CADENA
+# CONVIERTE A MAYUSCULAS
+result3 = cadena1.upper()
+print(f"Cadena convertida a mayusculas: {result3}")
+
+# LOWER
+# DEVUELVE UNA CADENA
+# CONVIERTE A MINUSCULA
+result4 = result3.lower()
+print(f"Cadena convertida a minuscula: {result4}")
+
+# STRIP
+# DEVUELVE UNA CADENA
+# ELIMINA LOS ESPACIOS DEL INICIO Y DEL FINAL DE UNA CADENA
+result17 = cadena7.strip()
+print(f"CADENA SIN ESPACIOS AL INICIO Y AL FINAL: {result17}")
+# VARIACIONES
+# ELIMINAR ESPACIOS A LA DERECHA
+result18 = cadena7.rstrip()
+print(f"CADENA SIN ESPACIOS AL AL FINAL: {result18}")
+# ELIMINAR ESPACIOS A LA IZQUIERDA
+result19 = cadena7.lstrip()
+print(f"CADENA SIN ESPACIOS AL INICIO: {result19}")
+
+# CAPITALIZE
+# DEVUELVE UNA CADENA
+# CONVIERTE LA PRIMERA LETRA DE LA CADENA EN MAYUSCULA
+# SI EL RESTO ESTAN EN MAYUSCULA LAS PASA A MINUSCULA Y DEJA SOLO LA PRIMERA
+result5 = result4.capitalize()
+print(f"Cadena con la primera letra en mayuscula: {result5}")
+
+# TITLE
+# DEVUELVE UNA CADENA
+# CONVIERTE LA PRIMERA LETRA DE CADA PALABRA EN MAYUSCULA
+result16 = cadena6.title()
+print(f"Cadena con la primera letra de cada palabra en mayuscula: {result16}")
+
+# FIND
+# DEVUELVE UN INT
+# BUSCA UNA CADENA EN OTRA CADENA Y DEVUELVE LA POSICION EN LA QUE ESTA, SI NO LA ECUENTRA DEVUELVE -1
+result6 = cadena2.find("programar")
+print(f"En que posicion se encuentra: \"programar\" en: \"{cadena2}\"?: {result6}")
+
+# INDEX
+# BUSCA UNA CADENA EN OTRA CADENA Y DEVUELVE LA POSICION EN LA QUE ESTA
+# SI NO LA ECUENTRA LANZA ERROR
+# DEVUELVE UN INT (O UN ERROR)
+result7 = cadena2.index("programar")
+print(f"En que posicion se encuentra: \"programar\" en: \"{cadena2}\"?: {result7}")
+
+# ISNUMERIC
+# DEVUELVE UN BOOLEANO, VERIFICA SI UNA CADENA CONTIENE SOLO NUMEROS
+# SI HAY UN SOLO DATO EN LA CADENA QUE NO SEA NUMERICO DEVUELVE FALSE
+result8 = cadena3.isnumeric()
+print(f"LA CADENA ES NUMERICA? {result8}")
+
+# ISALFA
+# DEVUELVE UN BOOLEANO, VERIFICA SI LA CADENA CONTIENE SOLO CARACTERES ALFABETICOS (a-z)
+# SI HAY UN SOLO DATO EN LA CADENA QUE NO SEA ALFABETICO DEVUELVE FALSE
+result9 = cadena4.isalpha()
+print(f"LA CADENA ES ALFANUMERICA? {result9}")
+
+# COUNT
+# BUSCA COINCIDENCIAS DE UNA CADENA EN OTRA CADENA Y NOS DICE CUANTAS VECES LA ENCONTRO
+# ES DECIR CUANTAS VECES HALLO LA COINCIDENCIA
+# SI NO ENCUENTRA ALGUNA DEVUELVE 0
+# DEVUELVE UN INT
+result10 = cadena2.count("r")
+print(f"Cuantas veces esta la letra 'r' en: {cadena2}: {result10}")
+
+# STARTSWITH
+# DEVUELVE UN BOOLEANO, VERIFICA SI UNA CADENA EMPIEZA CON OTRA CADENA
+result12 = cadena1.startswith("j")
+print(f"Empieza \"{cadena1}\" con 'j'?: {result12}")
+
+# ENDSWITH
+# DEVUELVE UN BOOLEANO, VERIFICA SI UNA CADENA TERMINA CON OTRA CADENA
+result13 = cadena1.endswith("y")
+print(f"Termina \"{cadena1}\" con 'y'?: {result13}")
+
+# REPLACE
+# DEVUELVE UNA CADENA
+# REEMPLAZA UN CADENA POR OTRA, PUEDE REEMPLAZAR VARIAS VECES DENTRO DE UNA MISMA CADENA
+# SI NO ENCUENTRA COINCIDENCIAS NOS DEVUELVE LA CADENA ORIGINAL
+result14 = cadena2.replace("r","l") # CAMBIA TODAS LAS 'r' POR 'l'
+print(f"CADENA ORIGINAL: \"{cadena2}\", CADENA REEMPLAZADA: \"{result14}\"")
+
+# SPLIT
+# DEVUELVE UNA LISTA (list)
+# SEPARA UNA CADENA USANDO EL SEPARADOR QUE NOSOTROS LE ASIGNEMOS
+result15 = cadena5.split(";")
+print(result15)
+print(f"PRIMER ELEMENTO DE LA CADENA SEPARADA: {result15[0]}")
+
+# JOIN
+# RECIBE SOLO LISTAS DE STRING, SI UN ELEMENTO DE OTRO TIPO EN LA LISTA DA ERROR
+# DEVUELVE UNA CADENA
+# UNE LOS ELEMENTOS DE UNA LISTA EN UNA SOLA CADENA, USANDO UN SEPARADOR
+# EL METODO SE LO APLICA A UNA CADENA QUE ACTUA COMO SEPARADOR DE CADA ELEMENTO
+separador = " "
+result20 = separador.join(result15)
+print(f"CADENA UNIDA: {result20}")
