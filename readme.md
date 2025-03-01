@@ -1,6 +1,6 @@
 ## FUNDAMENTOS DE PYTHON
 > [!NOTE]
-> Cada ejemplo de codigo esta bien documentada.
+> Cada ejemplo de codigo esta bien documentado.
 
 > [!IMPORTANT]
 > En este repositorio se encuentran varias carpetas con scripts donde se van explicando con ejemplos desde 0 todas las herramientas de python y como usarlas.
