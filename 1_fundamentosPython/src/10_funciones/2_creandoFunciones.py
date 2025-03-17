@@ -84,3 +84,11 @@ def crearFrase2(nombre, apellido, adjetivo = "INCREIBLE"):
 frase2 = crearFrase2("RICKY", "BALBOA") # SE FUERZAN EL ORDEN DE LOS PARAMETROS
 print(frase2)
 # EL ADJETIVO SERA POR DEFECTO "INCREIBLE"
+
+# USAR PASS PARA CREAR FUNCIONES VACIAS
+def funcion_vacia():
+    pass
+
+funcion_vacia() # HACE NADA
+
+# NOTA: PASS TAMBIEN SIRVE PARA CREAR CLASES VACIAS EN POO

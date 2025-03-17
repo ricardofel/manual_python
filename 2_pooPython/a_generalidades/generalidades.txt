@@ -1,0 +1,34 @@
+AUTOR: RIQUISIMO
+
+Programacion orientada a Objetos (POO):
+Es un paradigma de programacion, es decir una forma de programar, que nos sirve para hacer nuestro codigo 
+mas modular, escalable, legible y por ende mas entendible y comodo. 
+
+
+Como funciona POO:
+Simula las caracteristicas y comportamientos de objetos de la vida real, objetos tan simples y random 
+como un "carro", "jardin" o "volcan" o cualquier otro. Para poder programar estos objetos se necesitan 
+plantillas donde vamos a definir sus atributos y comportamientos asi como las restricciones que estos 
+tienen, estas plantillas se llaman clases, entonces con las clases definimos la logistica y estructura 
+objeto y cuando creamos un objeto a partir de esa clase se le conoce como "instanciar un objeto", cabe 
+decir tambien que de una clasese pueden instanciar varios objetos.
+
+Pilares de POO:
+Abstracción: Es el proceso de simplificar un sistema complejo mediante la identificación de las partes 
+más importantes y la ocultación de los detalles innecesarios. En POO, se logra mediante la creación de 
+clases que representan conceptos abstractos del mundo real.
+
+
+Encapsulamiento: Consiste en agrupar datos y métodos que operan sobre esos datos dentro de una misma 
+unidad llamada clase. Además, restringe el acceso directo a algunos de lo componentes de un objeto, 
+lo que protege la integridad de los datos y oculta la complejidad interna.
+
+
+Herencia: Permite crear nuevas clases basadas en clases existentes. La nueva clase (subclase) hereda 
+atributos y métodos de la clase existente (superclase), lo que facilita la reutilización del código y 
+la creación de jerarquías de clases.
+
+
+Polimorfismo: Es la capacidad de los objetos de diferentes clases relacionadas por herencia de responder 
+a la misma interfaz o método de diferentes maneras. Esto permite que una misma operación se ejecute de 
+forma distinta en objetos de diferentes clases.
